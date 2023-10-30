@@ -2,13 +2,11 @@ package com.baidu.monitor.controller;
 
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/test")
-public class HelloSpringMVC {
+public class HelloSpringDaily {
 
     @RequestMapping("/hello")
     public void hello() {
@@ -24,11 +22,17 @@ public class HelloSpringMVC {
     	 System.out.println("hello1");
     }
 
-    @RequestMapping("/hello5")
-    public void HelloWorld5(){
-   	    System.out.println("HelloWorld55555");
-        System.out.println("HelloWorld55555");
+    @RequestMapping("/hello6")
+    public void HelloWorld6(){
+   	    System.out.println("HelloWorld6");
 //        model.addAttribute("message","Hello World!!!HelloWorld55555");
 //        return "hello";
-   } 
+   }
+    @RequestMapping("/hello7")
+    public void HelloWorld7(){
+        System.out.println("HelloWorld7");
+//        model.addAttribute("message","Hello World!!!HelloWorld55555");
+//        return "hello";
+    }
+
 }
