@@ -35,4 +35,17 @@ public class HelloSpringDaily {
 //        return "hello";
     }
 
+    @RequestMapping("/hello8")
+    public void HelloWorld8(){
+        System.out.println("HelloWorld8");
+//        model.addAttribute("message","Hello World!!!HelloWorld55555");
+//        return "hello";
+    }
+
+    @RequestMapping("/hello9")
+    public void HelloWorld9(){
+        System.out.println("HelloWorld9");
+//        model.addAttribute("message","Hello World!!!HelloWorld55555");
+//        return "hello";
+    }
 }
