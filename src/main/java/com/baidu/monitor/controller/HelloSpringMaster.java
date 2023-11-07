@@ -5,10 +5,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
 @Slf4j
-@RequestMapping("/test")
+@RestController
 public class HelloSpringMaster {
     @GetMapping(value = "/hello3", produces = "application/json;charset=UTF-8")
     public void test() {
